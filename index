@@ -1,0 +1,81 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Interactivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Abihail Atara Barria Vargas</h1>
+        <img src="https://th.bing.com/th/id/OIF.ytZAK7JFTaw2xSkJ02F8WA?w=195&h=195&c=7&r=0&o=5&pid=1.7" alt="Foto de perfil">
+        <h2>Desarrollador Web</h2>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#datos-personales">Datos Personales</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <section id="datos-personales">
+        <h2>Datos Personales</h2>
+        <p>Correo: <span>ab.barria@duocuc.cl</span></p>
+        <p>Teléfono: <span>+56935686742</span></p>
+        <p><a href="https://github.com/jaaanex07" target="_blank">Perfil de GitHub</a></p>
+    </section>
+    
+    <section id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <article>
+            <h3>Empresa X</h3>
+            <p>Puesto: Desarrollador Web</p>
+            <ul>
+                <li>Desarrollo de aplicaciones web</li>
+                <li>Optimización de código</li>
+            </ul>
+        </article>
+    </section>
+    
+    <section id="educacion">
+        <h2>Educación y Certificaciones</h2>
+        <table>
+            <tr>
+                <th>Título</th>
+                <th>Institución</th>
+                <th>Año</th>
+            </tr>
+            <tr>
+                <td>Ingeniería en Sistemas</td>
+                <td>Universidad ABC</td>
+                <td>2022</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+    
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="560" height="315"></iframe>
+    </section>
+    
+    <footer>
+        <p>Derechos de autor © 2025</p>
+    </footer>
+</body>
+</html>
